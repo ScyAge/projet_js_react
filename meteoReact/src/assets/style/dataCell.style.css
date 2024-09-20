@@ -1,0 +1,24 @@
+
+div.dataCell {
+    text-align : center;    
+    padding : 1px;
+    border : solid thin #CCC;
+    height : 20px;
+}
+
+div.dataCell::after {
+    font-size : smaller;
+    padding-left : 1px;
+}
+div.dataCell.temperature::after {
+    content : "°C";
+}
+div.dataCell.mm::after {
+    content : "mm";
+}
+div.dataCell.jour::after {
+    content : "j";
+}
+div.dataCell.h::after {
+    content : "h";
+}

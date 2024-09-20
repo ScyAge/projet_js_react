@@ -1,0 +1,29 @@
+div.dataComparison {
+    margin : 20px 0px;
+}
+
+div.dataComparison div.meteoData {
+    display : flex;
+}
+
+div.dataComparison div.meteoData {   
+    display: flex;  
+    justify-content: center;
+}
+
+
+div.dataComparison  div.meteoData div.dataCell {   
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    align-items : flex-end;
+}
+
+div.meteoData.favorite {
+    background-color: gold;
+    font-weight : bold;
+}
+
+div.dataComparison > div.meteoData div.dataCell {
+    font-weight : bold;
+}

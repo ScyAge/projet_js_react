@@ -1,0 +1,13 @@
+div.chartZone {
+    width : 800px;
+    height : 600px;
+    margin : auto;
+}
+div.buttons {
+    display : flex;
+}
+button {
+    flex : 1;
+    margin : 5px 10px;
+    font-size : 16px;
+}

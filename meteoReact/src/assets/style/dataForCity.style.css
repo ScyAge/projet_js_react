@@ -1,0 +1,33 @@
+/*div.dataForCity div.meteoData {
+    display : inline-block;
+    margin : 0px 1px;
+    padding : 1px;
+}
+
+*/
+
+div.dataForCity  {   
+    display: flex;  
+    flex : 1;
+    justify-content: center;        
+}
+
+div.dataForCity div.meteoData {   
+    display: flex;      
+    flex : 1;
+    justify-content: center;
+    flex-direction :column;
+}
+div.dataForCity div.meteoData:first-child {
+    flex : 2;
+    background-color : white;
+    font-weight : bold;
+}
+div.dataForCity div.meteoData:nth-child(n+2) div.dataCell:nth-child(even) {
+    background-color : rgba(200,200,255);
+}
+
+div.dataForCity div.meteoData div.dataCell:first-child {
+    background-color : rgba(255,200,200);
+    font-weight : bold;
+}
